@@ -57,7 +57,7 @@ inquirer
             Github,
             email }) => { 
             const template = ` # ${title} 
-            # ![alt text](https://img.shields.io/badge/license-${license}-blue.svg)
+             ![image](https://img.shields.io/badge/license-${license}-blue.svg)
 * [Installation Instruction](#instruction)
 * [Usage](#usage)
 * [Contributing Guidelines](#contributing)
