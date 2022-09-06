@@ -1,5 +1,5 @@
  # Professional ReadMe Generator 
-             ![image](https://img.shields.io/badge/license-MIT-blue.svg)
+![image](https://img.shields.io/badge/license-MIT-blue.svg)
 * [Installation Instruction](#instruction)
 * [Usage](#usage)
 * [Contributing Guidelines](#contributing)
