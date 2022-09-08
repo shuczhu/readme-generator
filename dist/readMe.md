@@ -1,4 +1,4 @@
- # Professional ReadMe Generator 
+ # sample name 
 ![image](https://img.shields.io/badge/license-MIT-blue.svg)
 * [Installation Instruction](#instruction)
 * [Usage](#usage)
@@ -7,19 +7,15 @@
 * [License](#license)
 * [Questions?](#question)
 ## Installation
-Install Inquirer first using npm install
+sample instruction
 ## Usage
-Answer the prompt! It's super easy!
+sample instruction
 ## Contributing Guidelines
-Contribute however much you want!
+sample guideline
 ## Test
-Use npm run start to run the application
+sample test instructions
 ## License
 MIT
 ## Questions
 Questions? You can reach me at shuzhufilms@gmail.com.
 Github link: https://github.com/shuczhu
-
-## Video Walkthrough
-https://drive.google.com/file/d/1Iy61jfzKCGQv1eHgI-b9Yk8rASG8DNpE/view
-

@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
 
 inquirer
     .prompt([
@@ -84,10 +85,23 @@ Github link: https://github.com/${Github}
 
 
 function createNewFile(data) {
-    fs.writeFile(`readMe.md`, data, (err) => {
+
+    const dir = './dist';
+    const filename = './dist/readMe.md';
+
+    if (fs.existsSync(dir)){
+        writeFile(data);
+    } else {
+        fs.mkdirSync(dir)
+        writeFile(data);
+    }
+
+
+    function writeFile(data) {
+    fs.writeFile(filename, data, (err) => {
         if (err) {
             console.log(err)
         } else {
         console.log("Your readMe has been generated!")}
-    })
+    })}
 }
